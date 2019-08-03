@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48868" started-at="2019-08-03T18:01:11Z" finished-at="2019-08-03T18:01:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48868" started-at="2019-08-03T18:01:11Z" finished-at="2019-08-03T18:01:59Z">
+      <class name="com.Newtours.Tests.Testcases">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.Newtours.Tests.Testcases@1a968a59]" name="launchApp" is-config="true" duration-ms="21702" started-at="2019-08-03T18:01:11Z" finished-at="2019-08-03T18:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="registerUserdetails()[pri:1, instance:com.Newtours.Tests.Testcases@1a968a59]" name="registerUserdetails" duration-ms="10642" started-at="2019-08-03T18:01:32Z" description="Testcase 1" finished-at="2019-08-03T18:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserdetails -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.Newtours.Tests.Testcases@1a968a59]" name="login" duration-ms="3647" started-at="2019-08-03T18:01:43Z" description="Testcase 2" finished-at="2019-08-03T18:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="bookFlightdetails()[pri:3, instance:com.Newtours.Tests.Testcases@1a968a59]" name="bookFlightdetails" duration-ms="10159" started-at="2019-08-03T18:01:47Z" description="Testcase 3" finished-at="2019-08-03T18:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlightdetails -->
+        <test-method status="PASS" signature="invalidLogin()[pri:4, instance:com.Newtours.Tests.Testcases@1a968a59]" name="invalidLogin" duration-ms="2596" started-at="2019-08-03T18:01:57Z" description="Testcase 4" finished-at="2019-08-03T18:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+      </class> <!-- com.Newtours.Tests.Testcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

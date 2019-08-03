@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [default]">
+  <listeners>
+    <listener class-name="com.Helpermethods.TakeScreenshot"/>
+  </listeners>
+  <test thread-count="5" name="Newtours(failed)">
+    <classes>
+      <class name="com.Newtours.Tests.Testcases">
+        <methods>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- com.Newtours.Tests.Testcases -->
+    </classes>
+  </test> <!-- Newtours(failed) -->
+</suite> <!-- Failed suite [default] -->
