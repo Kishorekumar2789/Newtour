@@ -2,13 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [default]">
   <listeners>
-    <listener class-name="com.Helpermethods.TakeScreenshot"/>
+    <listener class-name="Listeners.TestListeners"/>
   </listeners>
   <test thread-count="5" name="Newtours(failed)">
     <classes>
       <class name="com.Newtours.Tests.Testcases">
         <methods>
+          <include name="invalidLogin"/>
           <include name="launchApp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.Newtours.Tests.Testcases -->
     </classes>

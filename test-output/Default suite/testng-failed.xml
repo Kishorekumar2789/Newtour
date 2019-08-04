@@ -5,7 +5,9 @@
     <classes>
       <class name="com.Newtours.Tests.Testcases">
         <methods>
+          <include name="invalidLogin"/>
           <include name="launchApp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.Newtours.Tests.Testcases -->
     </classes>

@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="default">
   <listeners>
-    <listener class-name="com.Helpermethods.Listeners" />
-  </listeners>
+   <listener class-name="Listeners.TestListeners" /> 
+  </listeners> 
   <test name="Newtours">
     <classes>
       <class name="com.Newtours.Tests.Testcases"/>

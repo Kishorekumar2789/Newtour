@@ -8,7 +8,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.Newtours.BrowserFactory.LaunchBrowser;
@@ -17,6 +20,10 @@ import com.Newtours.Pages.LoginPage;
 import com.Newtours.Pages.RegisterPage;
 import com.newtours.ReadProperties.Readproperty;
 
+import Listeners.TakeScreenshot;
+import Listeners.TestListeners;
+
+@Listeners(TestListeners.class)
 public class Testcases {
 
 	
@@ -31,8 +38,7 @@ public class Testcases {
 	public void launchApp() throws Exception {
 		
 		driver=LaunchBrowser.launchBrowser();
-		
-	    }
+	 }
 	
 	    @Test(priority=1,description="Testcase 1")
 	    public void registerUserdetails() throws Exception {
@@ -65,6 +71,22 @@ public class Testcases {
 		LoginPage lpage=PageFactory.initElements(driver, LoginPage.class);	
   		lpage.performLogin(Readproperty.getTestdata("validusername"), Readproperty.getTestdata("Invalidpassword"));
   		
+		}
+		
+		@AfterTest
+		public void tearDown()  {
+			
+			
+		
+		/*
+		 * if(ITestResult.FAILURE==result.getStatus()) {
+		 * System.out.println("Test Fail - Screenshot");
+		 * 
+		 * TakeScreenshot.takeScreenshot(result.getName(),driver); }
+		 */
+		 
+			
+			driver.quit();																																																																																																							
 		}
 		
 		
