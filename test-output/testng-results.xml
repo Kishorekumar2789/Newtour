@@ -2,31 +2,34 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[<br><img src='E:\Newtoursmaven\FailedScreenshots\invalidLogin2019-08-04 14-15-46.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='E:\Newtoursmaven\FailedScreenshots\invalidLogin2019-08-04 14-27-12.png' height='400' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:\Newtoursmaven\FailedScreenshots\invalidLogin2019-08-04 14-27-13.png' height='400' width='400'/><br>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57501" started-at="2019-08-04T12:14:50Z" finished-at="2019-08-04T12:15:48Z">
+  <suite name="default" duration-ms="53773" started-at="2019-08-04T12:26:20Z" finished-at="2019-08-04T12:27:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57501" started-at="2019-08-04T12:14:50Z" finished-at="2019-08-04T12:15:48Z">
+    <test name="Newtours" duration-ms="53773" started-at="2019-08-04T12:26:20Z" finished-at="2019-08-04T12:27:14Z">
       <class name="com.Newtours.Tests.Testcases">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.Newtours.Tests.Testcases@e25b2fe]" name="launchApp" is-config="true" duration-ms="12208" started-at="2019-08-04T12:14:50Z" finished-at="2019-08-04T12:15:02Z">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.Newtours.Tests.Testcases@754ba872]" name="launchApp" is-config="true" duration-ms="14635" started-at="2019-08-04T12:26:20Z" finished-at="2019-08-04T12:26:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="registerUserdetails()[pri:1, instance:com.Newtours.Tests.Testcases@e25b2fe]" name="registerUserdetails" duration-ms="8750" started-at="2019-08-04T12:15:02Z" description="Testcase 1" finished-at="2019-08-04T12:15:11Z">
+        <test-method status="PASS" signature="registerUserdetails()[pri:1, instance:com.Newtours.Tests.Testcases@754ba872]" name="registerUserdetails" duration-ms="16698" started-at="2019-08-04T12:26:35Z" description="Testcase 1" finished-at="2019-08-04T12:26:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUserdetails -->
-        <test-method status="PASS" signature="login()[pri:2, instance:com.Newtours.Tests.Testcases@e25b2fe]" name="login" duration-ms="24747" started-at="2019-08-04T12:15:11Z" description="Testcase 2" finished-at="2019-08-04T12:15:36Z">
+        <test-method status="PASS" signature="login()[pri:2, instance:com.Newtours.Tests.Testcases@754ba872]" name="login" duration-ms="10062" started-at="2019-08-04T12:26:52Z" description="Testcase 2" finished-at="2019-08-04T12:27:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="bookFlightdetails()[pri:3, instance:com.Newtours.Tests.Testcases@e25b2fe]" name="bookFlightdetails" duration-ms="7169" started-at="2019-08-04T12:15:36Z" description="Testcase 3" finished-at="2019-08-04T12:15:43Z">
+        <test-method status="PASS" signature="bookFlightdetails()[pri:3, instance:com.Newtours.Tests.Testcases@754ba872]" name="bookFlightdetails" duration-ms="6995" started-at="2019-08-04T12:27:02Z" description="Testcase 3" finished-at="2019-08-04T12:27:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlightdetails -->
-        <test-method status="FAIL" signature="invalidLogin()[pri:4, instance:com.Newtours.Tests.Testcases@e25b2fe]" name="invalidLogin" duration-ms="2333" started-at="2019-08-04T12:15:43Z" description="Testcase 4" finished-at="2019-08-04T12:15:45Z">
+        <test-method status="FAIL" signature="invalidLogin()[pri:4, instance:com.Newtours.Tests.Testcases@754ba872]" name="invalidLogin" duration-ms="2355" started-at="2019-08-04T12:27:09Z" description="Testcase 4" finished-at="2019-08-04T12:27:11Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [http://newtours.demoaut.com/mercuryreservation.php] but found [http://newtours.demoaut.com/mercurysignon.php]]]>
@@ -71,15 +74,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[<br><img src='E:\Newtoursmaven\FailedScreenshots\invalidLogin2019-08-04 14-15-46.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='E:\Newtoursmaven\FailedScreenshots\invalidLogin2019-08-04 14-27-12.png' height='400' width='400'/><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:\Newtoursmaven\FailedScreenshots\invalidLogin2019-08-04 14-27-13.png' height='400' width='400'/><br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Newtours.Tests.Testcases@e25b2fe]" name="tearDown" is-config="true" duration-ms="1330" started-at="2019-08-04T12:15:46Z" finished-at="2019-08-04T12:15:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Newtours.Tests.Testcases@754ba872]" name="tearDown" is-config="true" duration-ms="1372" started-at="2019-08-04T12:27:13Z" finished-at="2019-08-04T12:27:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Newtours.Tests.Testcases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Newtours -->
+  </suite> <!-- default -->
 </testng-results>

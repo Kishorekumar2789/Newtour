@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [default]">
+  <listeners>
+    <listener class-name="Listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Newtours(failed)">
     <classes>
       <class name="com.Newtours.Tests.Testcases">
         <methods>
@@ -11,5 +14,5 @@
         </methods>
       </class> <!-- com.Newtours.Tests.Testcases -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Newtours(failed) -->
+</suite> <!-- Failed suite [default] -->
